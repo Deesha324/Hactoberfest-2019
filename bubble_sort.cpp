@@ -6,8 +6,8 @@ int main()
     clock_t s,e;
     int a[10],n;
 
-    cout<<"enter number of elements: ";cin>>n;
-
+    cout<<"enter number of elements in the array: ";cin>>n;
+/* entering the elements */
     cout<<"enter elements of array\n";
     for(int i=0; i<n; i++)
         cin>>a[i];
